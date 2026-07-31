@@ -1,10 +1,9 @@
 # Ex.No: 6  Implementation of Jumping  behaviour- Unity
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 29.07.2026                                                                            
+### REGISTER NUMBER : 212223240149
 ### AIM: 
 To write a program to simulate the process of jumping in Unity.
 ### Algorithm:
-```
 1. Create a new 3D Unity project
 2. Add a Plane
 3. Right-click Hierarchy → 3D Object → Plane → Rename to Ground
@@ -18,10 +17,9 @@ To write a program to simulate the process of jumping in Unity.
 11.Run the game
 Press Play
 Press Spacebar to jump
-Your cube should only jump when touching the ground
-```
-###
-**Program **
+Your cube should only jump when touching the ground.
+
+### Program:
 ```
 using UnityEngine;
 
@@ -49,9 +47,11 @@ public class PlayerJump : MonoBehaviour
 ```
 ### Output:
 
+<img width="1536" height="861" alt="image" src="https://github.com/user-attachments/assets/dff72172-0f0c-4ac6-835a-153e009a1cbe" />
 
 
 
+<img width="1533" height="863" alt="image" src="https://github.com/user-attachments/assets/1444f4c9-a144-4497-a7be-28c38f0419a6" />
 
 
 
