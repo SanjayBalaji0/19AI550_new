@@ -1,6 +1,5 @@
 # Ex.No: 9  Implementation of RollarBall Design using Reinforcement Learning 
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### REGISTER NUMBER : 212223240149
 ### AIM: 
 To write a program to design RollerBall and train the Rollerbal by Reinforcement learning  in Unity 
 ### Installation Required 
@@ -132,7 +131,8 @@ public class RollerAgent : Agent
         continuous[1] = Input.GetAxis("Vertical");
     }
 }
-
+```
+```
 2. Create a "Rollerball.yaml" file (create a Config folder inside your project ) attach the following code 
 
 behaviors:
@@ -157,12 +157,18 @@ behaviors:
     max_steps: 500000
     time_horizon: 64
     summary_freq: 10000
+```
+
 ### Output:
 
+<img width="1051" height="546" alt="image" src="https://github.com/user-attachments/assets/6ed913a1-21cd-4c5b-9999-5ee8d42df01c" />
 
 
+<img width="1003" height="546" alt="image" src="https://github.com/user-attachments/assets/d26dec48-0378-4b1a-a49a-ec0ec843e287" />
 
+### Result :
 
+Thus the AI character was trained using reinforcement learning.
 
 
 
